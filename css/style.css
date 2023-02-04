@@ -1,0 +1,349 @@
+body {
+  width: 100%;
+
+
+}
+
+.body-margin {
+  margin: 0 10% 0 10%;
+}
+
+/* navbar css */
+
+
+
+/* navbar css */
+.navbar {
+  background-color: #AACB73;
+
+
+}
+
+
+
+
+/*page intro*/
+
+.page-intro-section {
+  background-color: #AACB73;
+  margin-bottom: 2em;
+
+}
+
+.page-intro {
+  margin-top: 7rem;
+
+  color: white;
+
+
+}
+
+.intro-img {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 2%;
+
+}
+
+
+
+
+div.page-intro button {
+  width: 150px;
+  height: 40px;
+
+  background-color: #AACB73;
+
+  border: 2px solid white;
+  border-radius: 50px;
+  margin-top: 2em;
+}
+
+div.page-intro button:hover {
+  background-color: #CDE990;
+
+}
+
+div.page-intro span {
+  display: block;
+  font-size: 3em;
+
+}
+
+div.page-intro p {
+
+  margin-top: 2em;
+}
+
+
+
+
+div.menu-tab span,
+div.about-us span {
+  text-decoration: underline #CDE990 2px;
+  text-underline-offset: 8px;
+}
+
+
+
+
+
+
+
+/* button group css start*/
+
+
+
+
+
+
+
+.btn {
+  background-color: #AACB73;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 9px 16px;
+  width: 150px;
+  height: 42px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover{
+  background-color: #CDE990;
+  color: white;
+  
+}
+
+
+.tab-btn {
+  overflow: auto;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  white-space: nowrap;
+}
+
+
+.fa{
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-decoration: none;
+  margin: 5px 2px;
+ color: white;
+}
+
+.fa:hover, div#navbarToggler a:hover, .card:hover{
+  opacity: 0.7;
+}
+
+
+
+/* card settings start */
+.card-col {
+  margin-bottom: 5%;
+  cursor: pointer;
+
+
+}
+
+.card-price {
+  display: inline-block;
+
+  height: 50px;
+  font-size: 18px;
+}
+
+div.card-price span,
+div.card-price h6 {
+  position: relative;
+
+  text-align: end;
+
+
+}
+
+.card-disc {
+  display: inline-block;
+  width: 80%;
+  height: 50px;
+}
+
+.card {
+  overflow: hidden;
+}
+
+
+div.card img {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%)
+}
+
+div.card-body p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #949a98;
+}
+
+div.card-body h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #11313c;
+}
+
+
+
+
+
+.card-body {
+
+
+  bottom: 0;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+
+/* about us section */
+
+.app-section {
+  background-color: #AACB73;
+  text-align: center;
+  padding: 50px;
+}
+
+div.app-section h2 {
+  color: white;
+}
+
+div.app-section img {
+  width: 300px;
+
+}
+
+.about-us {
+  margin-top: 3%;
+}
+
+.about-us-inner,
+div.about-us-inner img,
+.newslatter {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+
+div.newslatter input {
+
+
+  height: 40px;
+  width: 250px;
+  border: 0;
+  background-color: beige;
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+div.newslatter button {
+  border: 0;
+  height: 40px;
+  background-color: #AACB73;
+  padding: 6px;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+
+
+/* footer css */
+
+footer p {
+  background-color: #AACB73;
+  text-align: center;
+  height: 4em;
+  padding: 1em;
+  margin-bottom: 0;
+  color: white;
+
+}
+
+
+
+
+
+/* mobile media settings */
+
+@media (max-width:990px) {
+
+  .body-margin {
+    margin: 0;
+  }
+
+  /* intro mobile css*/
+
+  .intro-img {
+    height: 184px;
+    width: 100%;
+  }
+
+
+  .page-intro {
+    margin-top: 10px;
+
+
+
+    font-size: 12px;
+
+
+  }
+
+  div.page-intro span {
+
+    font-size: 14px;
+    font-weight: 500;
+
+  }
+
+
+
+  div.page-intro button {
+    width: 120px;
+    height: 30px;
+
+
+    margin: 0;
+
+  }
+
+  div.page-intro button:hover {
+    background-color: #CDE990;
+
+  }
+
+
+  div.page-intro p {
+
+    margin-top: 5px;
+  }
+
+  /* menu button mobile css */
+
+
+  .btn {
+    width: 120px;
+    height: 30px;
+
+    padding: 0px 10px;
+
+    font-size: 14px;
+  }
+
+
+}
